@@ -1,6 +1,6 @@
 # Colorado Elections Audit
 
-## Project Overview
+## Overview of Election Audit
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local
 congressional election.
 
@@ -18,7 +18,7 @@ congressional election.
 - Data Source: election_results.csv
 - Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
-## Summary
+## Election Audit Summary
 The analysis of the election show that:
 There were 369,711 votes cast in the election.
 
@@ -46,4 +46,8 @@ The candidate results were:
 
 The winner of the election was:
 Diana DeGette, who received 73.8% of the vote and 272,892 votes.
+
+## Election Audit Summary
+
+Given the programatic structure of the code file, it may be used in future election audits given the proper modifications.  As it is written with reference to files using file paths, analysis of future election data would need to be updated to reflect current working directories and associated file lcoations.  Furthermore, care would have to be paid to checking the columns associated with certian data, such as candidate name and county, in raw data files.  With these simple adjustments, this code can be repurposed for election audits for years to come. 
 
