@@ -49,5 +49,7 @@ Diana DeGette, who received 73.8% of the vote and 272,892 votes.
 
 ## Election Audit Summary
 
+In summation, a total of 369,711 ballots were cast in three counties; Jefferson, Denver, and Arapahoe.  Denver ballots make up the majority of votes cast with 306,055 ballots, amountng to 82.8% of the total vote.  Ballots were cast for three candidates; Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane.  Of the three candidates, Diana DeGette won the popular vote with 73.8% of the vote and 272,892 votes.   
+
 Given the programatic structure of the code file, it may be used in future election audits given the proper modifications.  As it is written with reference to files using file paths, analysis of future election data would need to be updated to reflect current working directories and associated file lcoations.  Furthermore, care would have to be paid to checking the columns associated with certian data, such as candidate name and county, in raw data files.  With these simple adjustments, this code can be repurposed for election audits for years to come. 
 
